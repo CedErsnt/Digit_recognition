@@ -10,7 +10,7 @@ class Mycallback(tf.keras.callbacks.Callback):
             #If accuracy is greater than 0.97, print message and stop training
             print("\nReached 95% accuracy so cancelling training!")
             self.model.stop_training = True
-
+callback = Mycallback()
 #Load the MNIST dataset from keras.datasets
 data = tf.keras.datasets.mnist
 
