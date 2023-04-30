@@ -1,5 +1,5 @@
-**#Digits recognition
-
+**###HSG PROGRMAMMING PROJECT###**
+###Digit recognition
 Python application to recognize handwritten digits in real time!
 
 ### Project's motivations
