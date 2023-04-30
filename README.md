@@ -11,6 +11,8 @@ That's why I started with one of the most basic NN project, digits recognition.
 
 
 ### Installation
+(go in the drawing-recognition-main folder)
+
 - Run `python -m pip install -r .\requirements.txt`
 - Run `python app.py`
   - If it gives an error, run `python model.py` first
