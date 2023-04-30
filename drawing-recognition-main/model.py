@@ -61,3 +61,5 @@ model.evaluate(test_images,test_labels)
 
 #Save the trained model to disk
 model.save("final-cnn-digits-model")
+
+
