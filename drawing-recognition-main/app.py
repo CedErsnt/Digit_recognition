@@ -1,9 +1,9 @@
 #Importing modules
-import pygame  # Importing Pygame module for creating GUI applications
-import tensorflow as tf  # Importing TensorFlow library for building and training machine learning models
-from PIL import Image  # Importing PIL library for opening, manipulating, and saving images
-import numpy as np  # Importing NumPy library for numerical computing
-import os  # Importing OS module for interacting with the operating system
+import pygame  
+import tensorflow as tf  
+from PIL import Image 
+import numpy as np 
+import os  
 from tensorflow.python.ops.numpy_ops import np_config  
 
 #Enabling NumPy behavior to prevent TensorFlow from casting NumPy arrays to Tensors
@@ -23,7 +23,7 @@ drawing_area = pygame.Rect(500, 0, 500, 500)
 pygame.draw.rect(screen, "black", (500,0,500,500), 0)
 
 #Setting the caption of the screen
-pygame.display.set_caption("digits")
+pygame.display.set_caption("digits recognition")
 
 #Initializing a variable to keep track of the game state
 game_running = True
