@@ -23,7 +23,7 @@ drawing_area = pygame.Rect(500, 0, 500, 500)
 pygame.draw.rect(screen, "black", (500,0,500,500), 0)
 
 #Setting the caption of the screen
-pygame.display.set_caption("Image recognition")
+pygame.display.set_caption("digits")
 
 #Initializing a variable to keep track of the game state
 game_running = True
