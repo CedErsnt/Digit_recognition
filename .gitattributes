@@ -1,4 +1,4 @@
 * text=auto
 
-.pb binary
-variables. binary
+*.pb binary
+variables.* binary
